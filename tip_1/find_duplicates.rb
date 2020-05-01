@@ -5,7 +5,7 @@ DIR_B = ENV['DIR_B']
 OUTPUT = ENV['OUTPUT']
 
 
-$md5hashes = []
+$md5hashes = Set.new
 $filename_map_dir_a = {}
 
 def traverse_dir(dir_path)
