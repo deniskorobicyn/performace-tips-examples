@@ -1,5 +1,6 @@
-# usuing envs as it's faster then parsing ARGV
 require 'digest'
+
+# usuing envs as it's faster then parsing ARGV
 DIR_A = ENV['DIR_A']
 DIR_B = ENV['DIR_B']
 OUTPUT = ENV['OUTPUT']
