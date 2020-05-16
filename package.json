@@ -1,0 +1,11 @@
+{
+  "name": "performace-tips-examples",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start-tip1-5": "node tip_1-5/index.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
